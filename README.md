@@ -3,7 +3,8 @@ Install zlib1g-dev library
 ```
 $ sudo apt install zlib1g-dev
 ```
-Download latest GSL from http://ftpmirror.gnu.org/gsl/ or ftp://ftp.gnu.org/gnu/gsl/
+Download latest GSL from http://ftpmirror.gnu.org/gsl/ or `ftp://ftp.gnu.org/gnu/gsl/`
+
 Unpack archive
 ```
 $ tar -zxvf gsl-latest.tar.gz
