@@ -65,7 +65,7 @@ $ ./walt -i MTBS.dbindex -1 EXPERIMENT_1/reads_split/MTBS5_1.fastq -2 EXPERIMENT
 $ ./walt -i MTBS.dbindex -1 EXPERIMENT_1/reads_split/MTBS6_1.fastq -2 EXPERIMENT_1/reads_split/MTBS6_2.fastq -o MTBS6.mr
 ```
 Merge all the mapped reads files ( *.mr suffix) and (*.mr.mapstats)
-```
+```bash
 $ cat *.mr > MTBS.mr
 $ cat *.mapstats > MTBS.mr.mapstats
 ```
