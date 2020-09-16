@@ -33,15 +33,16 @@ $ make install
 ```
 Download walt from https://github.com/smithlabcode/walt/archive/master.zip or https://github.com/smithlabcode/walt
 
-Extract and rename it walt
-Enter the walt directory ```$ cd walt/``` and execute the following codes
+Extract and rename it *walt*
+
+Enter the *walt* directory ```$ cd walt/``` and execute the following codes
 ```
 $ make all
 $ make install
 $ cd bin
-$ ./walt
 ```
-Copy and paste EXPERIMENT_1 folder (containing reads folder(containing _1 and _2 reads) and reference_genome) into the bin of walt
+Copy and paste EXPERIMENT_1 folder (containing reads folder(containing _1 and _2 reads) and reference_genome) into the bin of *walt*
+
 Execute the following codes to make index for mapping
 ```
 $ ./makedb -c EXPERIMENT_1/MTBS.fa -o MTBS.dbindex
