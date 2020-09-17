@@ -77,7 +77,7 @@ Sorted the reads inside the reads file ( *.mr suffix)
 ```bash
 $ cd RESULT_MAPPING_READS/
 $ LC_ALL=C sort -k 1,1 -k 2,2n -k 3,3n -k 6,6 \-o MTBS.mr.sorted_start MTBS.mr
-cd ..
+$ cd ..
 ```
 Removing read duplicates, or reads that were mapped to identical genomic locations
 ```bash
